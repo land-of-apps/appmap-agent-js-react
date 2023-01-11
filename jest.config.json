@@ -1,0 +1,7 @@
+{
+  "testMatch": ["<rootDir>/test/*.jsx"],
+  "testEnvironment": "jsdom",
+  "transform": {
+    "\\.jsx$": "babel-jest"
+  }
+}

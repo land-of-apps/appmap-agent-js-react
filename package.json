@@ -2,7 +2,7 @@
   "name": "appmap-agent-js-react",
   "version": "0.0.0",
   "dependencies": {
-    "@appland/appmap-agent-js": "^13.0.0",
+    "@appland/appmap-agent-js": "^13.0.1",
     "@babel/cli": "^7.20.7",
     "@babel/core": "^7.20.12",
     "@babel/preset-env": "^7.20.2",

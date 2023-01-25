@@ -1,0 +1,272 @@
+{
+  "version": "1.8.0",
+  "metadata": {
+    "name": "App contains title",
+    "app": "appmap-agent-js-react",
+    "labels": [],
+    "language": {
+      "name": "javascript",
+      "version": "ES.Next",
+      "engine": "node@18.13.0"
+    },
+    "frameworks": [],
+    "client": {
+      "name": "@appland/appmap-agent-js",
+      "version": "13.0.1",
+      "url": "https://github.com/getappmap/appmap-agent-js.git/#readme"
+    },
+    "recorder": {
+      "name": "jest"
+    },
+    "git": {
+      "repository": "https://github.com/land-of-apps/appmap-agent-js-react.git",
+      "branch": "main",
+      "commit": "d7b1f3fe50bf6c4d01ec5623ba446a7c74c89a50",
+      "status": [
+        "M .gitignore",
+        "M appmap.yml",
+        "M package-lock.json",
+        "M package.json"
+      ],
+      "tag": null,
+      "annotated_tag": null,
+      "commits_since_tag": null,
+      "commits_since_annotated_tag": null
+    },
+    "test_status": "succeeded"
+  },
+  "classMap": [
+    {
+      "type": "package",
+      "name": "src",
+      "children": [
+        {
+          "type": "class",
+          "name": "Counter",
+          "children": [
+            {
+              "type": "function",
+              "name": "Counter",
+              "location": "src/Counter.jsx:3",
+              "static": false,
+              "source": null,
+              "comment": null,
+              "labels": []
+            },
+            {
+              "type": "class",
+              "name": "Counter",
+              "children": [
+                {
+                  "type": "function",
+                  "name": "increment",
+                  "location": "src/Counter.jsx:5",
+                  "static": false,
+                  "source": null,
+                  "comment": null,
+                  "labels": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "class",
+          "name": "App",
+          "children": [
+            {
+              "type": "function",
+              "name": "App",
+              "location": "src/App.jsx:4",
+              "static": false,
+              "source": null,
+              "comment": null,
+              "labels": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 1,
+      "defined_class": "App",
+      "method_id": "App",
+      "path": "src/App.jsx",
+      "lineno": 4,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": []
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 2,
+      "parent_id": 1,
+      "elapsed": 0.000774000000000342,
+      "return_value": {
+        "name": "return",
+        "class": "Object",
+        "object_id": 5,
+        "value": "[object Object]",
+        "size": 9,
+        "properties": [
+          {
+            "name": "$$typeof",
+            "class": "Symbol"
+          },
+          {
+            "name": "type",
+            "class": "String"
+          },
+          {
+            "name": "key",
+            "class": "Null"
+          },
+          {
+            "name": "ref",
+            "class": "Null"
+          },
+          {
+            "name": "props",
+            "class": "Object"
+          },
+          {
+            "name": "_owner",
+            "class": "Object"
+          },
+          {
+            "name": "_store",
+            "class": "Object"
+          },
+          {
+            "name": "_self",
+            "class": "Undefined"
+          },
+          {
+            "name": "_source",
+            "class": "Undefined"
+          }
+        ]
+      }
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 3,
+      "defined_class": "Counter",
+      "method_id": "Counter",
+      "path": "src/Counter.jsx",
+      "lineno": 3,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": [
+        {
+          "name": "props",
+          "class": "Object",
+          "object_id": 6,
+          "value": "[object Object]",
+          "size": 1,
+          "properties": [
+            {
+              "name": "init",
+              "class": "Number"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "call",
+      "thread_id": 0,
+      "id": 4,
+      "defined_class": "Counter",
+      "method_id": "increment",
+      "path": "src/Counter.jsx",
+      "lineno": 5,
+      "static": false,
+      "receiver": {
+        "name": "this",
+        "class": "undefined",
+        "value": "undefined"
+      },
+      "parameters": []
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 5,
+      "parent_id": 4,
+      "elapsed": 0.00007900000000017827,
+      "return_value": {
+        "name": "return",
+        "class": "Function",
+        "object_id": 8,
+        "value": "function APPMAP_HOOK_APPLY_RETURN (...) { ... }"
+      }
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 6,
+      "parent_id": 3,
+      "elapsed": 0.0016659999999997126,
+      "return_value": {
+        "name": "return",
+        "class": "Object",
+        "object_id": 9,
+        "value": "[object Object]",
+        "size": 9,
+        "properties": [
+          {
+            "name": "$$typeof",
+            "class": "Symbol"
+          },
+          {
+            "name": "type",
+            "class": "String"
+          },
+          {
+            "name": "key",
+            "class": "Null"
+          },
+          {
+            "name": "ref",
+            "class": "Null"
+          },
+          {
+            "name": "props",
+            "class": "Object"
+          },
+          {
+            "name": "_owner",
+            "class": "Object"
+          },
+          {
+            "name": "_store",
+            "class": "Object"
+          },
+          {
+            "name": "_self",
+            "class": "Undefined"
+          },
+          {
+            "name": "_source",
+            "class": "Undefined"
+          }
+        ]
+      }
+    }
+  ]
+}

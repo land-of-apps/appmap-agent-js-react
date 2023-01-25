@@ -1,4 +1,2 @@
-log:
-  level: debug
-default-package:
-  enabled: true
+packages:
+  - path: src

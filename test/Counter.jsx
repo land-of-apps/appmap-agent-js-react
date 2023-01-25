@@ -1,5 +1,5 @@
 import { cleanup, fireEvent, render } from '@testing-library/react';
-import Counter from '../src/Counter';
+import { Counter } from '../src/Counter';
 afterEach(cleanup);
 it('Counter increments its label after click', () => {
   const {queryByText, getByText} = render(<Counter init={123} />);

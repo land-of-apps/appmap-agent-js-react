@@ -21,12 +21,9 @@
     "git": {
       "repository": "https://github.com/land-of-apps/appmap-agent-js-react.git",
       "branch": "main",
-      "commit": "d7b1f3fe50bf6c4d01ec5623ba446a7c74c89a50",
+      "commit": "a4961c2f9972320bad85fa5f78ec20d2f3d62160",
       "status": [
-        "M .gitignore",
-        "M appmap.yml",
-        "M package-lock.json",
-        "M package.json"
+        "M src/Counter.jsx"
       ],
       "tag": null,
       "annotated_tag": null,
@@ -52,21 +49,6 @@
               "source": null,
               "comment": null,
               "labels": []
-            },
-            {
-              "type": "class",
-              "name": "Counter",
-              "children": [
-                {
-                  "type": "function",
-                  "name": "increment",
-                  "location": "src/Counter.jsx:5",
-                  "static": false,
-                  "source": null,
-                  "comment": null,
-                  "labels": []
-                }
-              ]
             }
           ]
         },
@@ -110,7 +92,7 @@
       "thread_id": 0,
       "id": 2,
       "parent_id": 1,
-      "elapsed": 0.000774000000000342,
+      "elapsed": 0.000555000000000291,
       "return_value": {
         "name": "return",
         "class": "Object",
@@ -188,44 +170,15 @@
       ]
     },
     {
-      "event": "call",
+      "event": "return",
       "thread_id": 0,
       "id": 4,
-      "defined_class": "Counter",
-      "method_id": "increment",
-      "path": "src/Counter.jsx",
-      "lineno": 5,
-      "static": false,
-      "receiver": {
-        "name": "this",
-        "class": "undefined",
-        "value": "undefined"
-      },
-      "parameters": []
-    },
-    {
-      "event": "return",
-      "thread_id": 0,
-      "id": 5,
-      "parent_id": 4,
-      "elapsed": 0.00007900000000017827,
-      "return_value": {
-        "name": "return",
-        "class": "Function",
-        "object_id": 8,
-        "value": "function APPMAP_HOOK_APPLY_RETURN (...) { ... }"
-      }
-    },
-    {
-      "event": "return",
-      "thread_id": 0,
-      "id": 6,
       "parent_id": 3,
-      "elapsed": 0.0016659999999997126,
+      "elapsed": 0.0010750000000007275,
       "return_value": {
         "name": "return",
         "class": "Object",
-        "object_id": 9,
+        "object_id": 8,
         "value": "[object Object]",
         "size": 9,
         "properties": [
